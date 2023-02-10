@@ -1,0 +1,80 @@
+html{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+div#navigation{
+    height: 3px;
+    background-color: #de0c0c;
+    margin-bottom: 5px;
+}
+
+nav#navigationbar{
+    display: flex;
+}
+
+div.pages{
+    flex: 1;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+a#PageNow{
+    color: rgb(240, 0, 0);
+}
+
+div#youtube{
+    color: rgb(130, 67, 67);
+}
+
+hr {
+    top: 1px;
+    border: none;
+    height: 1px;
+    background: #b1afaa;
+    margin-bottom: 15px;
+}
+
+img.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1{
+    font-weight: normal;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+div.Main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    background-color: #ffffff;
+}
+
+h2{
+    font-weight: normal;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+div.Lside{
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    
+    background-color: #ffffff;
+  border-right: 1px solid gray;
+  height: 550px;
+}
+
+div.Rside{
+    flex: 1.5;
+  background-color: #ffffff;
+  padding-left: 50px;
+}
